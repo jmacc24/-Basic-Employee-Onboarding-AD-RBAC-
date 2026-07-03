@@ -7,7 +7,8 @@ Northstar Medical lacked proper structure for their infrastructure, which was pr
 Created AD DS as the identity database for our users, with a DC (Domain Controller) as the mechanism that references AD DS during login and silently determines in the background what each user has access to. Established scopes in our infrastructure to enforce boundaries and prevent permission sprawl or accumulation. Added OUs for our four departments (HR, IT, Operations, Finance), containerizing each department to its own resources, and added users as members of their designated security groups, granting access to specific resources.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+https://youtu.be/v41dEFNv6Vo?si=jIMP8wHuSNCBZx9-
+
 
 ## Tools Used
 * Windows Server
