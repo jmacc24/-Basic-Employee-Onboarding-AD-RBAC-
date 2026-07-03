@@ -1,10 +1,10 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+Northstar Medical lacked proper structure for their infrastructure, which was previously managed by an MSP. Every new user had to be manually granted access to different systems and resources, with no governance or audit trail to make the process seamless for admins. This created a risk of falling out of compliance due to lack of visibility into who was accessing what, as well as orphaned accounts and orphaned groups.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+Created AD DS as the identity database for our users, with a DC (Domain Controller) as the mechanism that references AD DS during login and silently determines in the background what each user has access to. Established scopes in our infrastructure to enforce boundaries and prevent permission sprawl or accumulation. Added OUs for our four departments (HR, IT, Operations, Finance), containerizing each department to its own resources, and added users as members of their designated security groups, granting access to specific resources.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
