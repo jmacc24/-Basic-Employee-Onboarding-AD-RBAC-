@@ -26,5 +26,5 @@ Created AD DS as the identity database for our users, with a DC (Domain Controll
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Solved incorrect OU access
+* Documented steps throught my investigation 
